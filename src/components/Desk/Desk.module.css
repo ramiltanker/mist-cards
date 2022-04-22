@@ -1,0 +1,58 @@
+.desk {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1186px;
+  background-image: url(../../images/desk-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  padding: 30px 40px;
+  margin: 40px auto;
+}
+
+.box {
+  width: 100%;
+  display: flex;
+}
+
+.hero {
+  width: 100%;
+  max-width: 120px;
+  height: 169px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../../images/card-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-right: 20px;
+}
+
+.hero_image {
+  width: 100px;
+  height: 140px;
+}
+
+.cards {
+  width: 100%;
+  max-width: 675px;
+  display: flex;
+}
+
+.buttons {
+  width: 100%;
+  max-width: 219px;
+  margin-left: 20px;
+}
+
+.button {
+  width: 100%;
+  margin-right: 0 !important;
+  font-weight: 900;
+}
+
+.button:not(:last-child) {
+  margin-bottom: 15px;
+}

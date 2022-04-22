@@ -1,0 +1,35 @@
+.crypto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 362px;
+  padding: 5px 0;
+  background: #000000;
+  border-radius: 20px;
+}
+
+.name {
+  font-weight: 900;
+  font-size: 27px;
+  line-height: 1.22222222222;
+  text-align: center;
+  color: #ffffff;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+}
+
+.value {
+  font-size: 27px;
+  line-height: 1.22222222222;
+  text-align: center;
+  color: #ffffff;
+}
+
+.image {
+  object-fit: contain;
+}

@@ -1,0 +1,42 @@
+.button {
+  width: 100%;
+  max-width: 219px;
+  border-radius: 20px;
+  font-weight: 500;
+  font-size: 27px;
+  line-height: 1.22222222222;
+  text-align: center;
+  padding: 15px 0;
+  transition: all 200ms linear;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.button_solid {
+  border: 2px solid #fadb4000;
+  background-color: #fadb40;
+  color: #000000;
+}
+
+.button_outline {
+  border: 2px solid #fadb40;
+  color: #fadb40;
+  background-color: transparent;
+}
+
+.button_outline:hover {
+  border: 2px solid #fadb4000;
+  background-color: #fadb40;
+  color: #000000;
+}
+
+.button_solid:hover {
+  border: 2px solid #fadb40;
+  color: #fadb40;
+  background-color: transparent;
+  transition: all 200ms linear;
+}
+
+.button:not(:last-child) {
+  margin-right: 16px;
+}
