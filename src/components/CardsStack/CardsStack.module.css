@@ -1,0 +1,130 @@
+.stack {
+  width: 100%;
+  max-width: 1250px;
+  background-image: url(../../images/card-stack-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin: 30px auto 0;
+  padding-bottom: 50px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 712px;
+  margin-top: 60px;
+}
+
+.rating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.rating_image {
+  object-fit: contain;
+  margin-right: 10px;
+}
+
+.rating_value {
+  font-weight: 900;
+  font-size: 35px;
+  line-height: 1.22857142857;
+  text-align: center;
+  color: #ffffff;
+}
+
+.cards {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 180px));
+  grid-template-rows: repeat(2, 235px);
+  gap: 20px;
+}
+
+.card_image {
+  object-fit: contain;
+}
+
+.bottom {
+  display: flex;
+  max-width: 964px;
+  justify-content: center;
+  align-items: center;
+  margin: 35px auto 0;
+}
+
+.box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.claim_button {
+  border: 3px solid #fadb40;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.claim_button:hover {
+  border: 3px solid #fadb4000;
+  background-color: #fadb40;
+  color: #000000;
+}
+
+.timer_box {
+  position: relative;
+  display: flex;
+  width: 100%;
+  max-width: 300px;
+  align-items: center;
+  background: #fadb40;
+  border-radius: 20px;
+  padding: 16px 26px;
+}
+
+.timer_image {
+  width: 22px;
+  height: 28px;
+  margin-right: 10px;
+}
+
+.multiplier {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: -5px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #9e0000;
+  border-radius: 50%;
+  width: 108px;
+  height: 108px;
+}
+
+.multiplier_text {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.22222222222;
+  text-align: center;
+  color: #ffffff;
+}
+
+.multiplier_text span {
+  font-weight: 900;
+  font-size: 27px;
+  line-height: 1.22222222222;
+  text-align: center;
+  color: #ffffff;
+}

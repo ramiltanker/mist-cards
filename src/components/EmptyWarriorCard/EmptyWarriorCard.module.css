@@ -1,0 +1,12 @@
+.card {
+  width: 185px;
+  height: 169px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../../images/card-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.5;
+}
